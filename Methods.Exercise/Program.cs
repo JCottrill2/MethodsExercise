@@ -22,6 +22,11 @@ namespace Methods.Exercise
             var band = Console.ReadLine();
             Console.WriteLine(band);
 
+            Console.WriteLine(Methods.Add(77, 53));
+            Console.WriteLine(Methods.Multiply(24, 56));
+            Console.WriteLine(Methods.Subtract(76, 78));
+            Console.WriteLine(Methods.Divide(566, 4012));
+            Console.WriteLine(Methods.Modulus(566, 4012));
         }
     }
 }
